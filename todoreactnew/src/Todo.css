@@ -1,0 +1,87 @@
+#ToDoList #inputform #newTodoItem {
+  width: 80%;
+  font-size: 30px;
+  border: none;
+  border-bottom: 1px solid black;
+}
+
+#ToDoList #newTodoItem #addButton{
+  background-color: grey ;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  width: 30px;
+  font-size: 20px;
+  border-radius: 5px;
+  float: right;
+  position: relative;
+  top: 5px;
+}
+#addButton{
+  position: relative;
+  float: right;
+  width: 70px;
+  font-size: 15px;
+  background-color: #C0DF85;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+#ToDoList .todo{
+  font-size: 30px;
+  padding: 20px 0px;
+  border-bottom: 1px dotted #aaa;
+}
+
+#ToDoList .todo:last-of-type{
+/*Makes sure that the last item does not have a bottom border*/
+  border-bottom: none;
+}
+
+#ToDoList .todo p{
+  display: inline-block;
+  margin: 0px;
+  max-width: 80%;
+}
+#ToDoList .todo button{
+  background: none;
+  border:none;
+  position: relative;
+  bottom: -2px;
+}
+button:focus {
+  outline:0;
+}
+#ToDoList .todo .complete{
+  float: left;
+  margin-right: 10px;
+  width: 30px;
+  height: 30px;
+  border: 2px solid black;
+  border-radius: 4px;
+}
+
+p.completed{
+  text-decoration: line-through;
+}
+#ToDoList .todo .remove{
+  float: right;
+  font-size: 15px;
+  width: 70px;
+  height: 30px;
+  background-color: #DB6C79;
+  color: white;
+  border: none;
+  padding: 5px 5px;
+  border-radius: 5px;
+  position: relative;
+  top: 5px;
+}
+
+
+@media (max-width: 800px){
+  #ToDoList{
+    width: 80%;
+  }
+}
