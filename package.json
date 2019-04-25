@@ -2,7 +2,7 @@
   "name": "todoreactnew",
   "username": "https://sophiebishopp.github.io/09-TodoReactNewRepository/",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "gh-pages": "^2.0.1",
     "react": "^16.8.6",
