@@ -143,7 +143,7 @@ class App extends Component {
 
   render() {
     {console.log(this.state.todos)}
-    return (
+    return ( 
       <div>
         <section id="ToDoList">
           <button id="sortButton" onClick={this.sort}>Sort</button>
